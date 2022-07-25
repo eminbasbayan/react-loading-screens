@@ -1,0 +1,5 @@
+.feed {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}

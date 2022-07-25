@@ -1,0 +1,61 @@
+.post {
+  width: 274px;
+  margin-right: 12px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.post-img-container {
+  position: relative;
+  width: 274px;
+  height: 153px;
+}
+
+.post-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-duration {
+  background: #333;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.post-info-container {
+  display: flex;
+  margin-top: 15px;
+}
+
+.post-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-title {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.post-channel,
+.post-detail {
+  font-size: 14px;
+  font-weight: 500;
+  color: #aaa;
+  margin-bottom: 3px;
+}
